@@ -1,0 +1,257 @@
+.list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.list ul li {
+  list-style: none;
+  padding-left: 40px;
+}
+
+.list ul li a {
+  text-decoration: none;
+  color: #6a6a6a;
+}
+
+.list ul li .btn {
+  border: 2px solid #6a6a6a;
+  border-radius: 4px;
+  padding: 6px 22px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.list ul li .btn:hover {
+  background-color: #21bf73;
+  border-color: #21bf73;
+  color: #fff;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #6a6a6a;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+nav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.hamburger-menu {
+  font-size: 25px;
+  display: none;
+}
+
+#intro {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #f0f5f9;
+}
+
+#intro .intro-wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10% 10%;
+}
+
+#intro .intro-wrapper .title h1 {
+  font-weight: 700;
+}
+
+#intro .intro-wrapper .for-btn {
+  margin-top: 13px;
+}
+
+#intro .intro-wrapper .for-btn a {
+  text-decoration: none;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+#intro .intro-wrapper .for-btn .btn1 {
+  color: #3498db;
+  padding: 8px 24px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+#intro .intro-wrapper .for-btn .btn1:hover {
+  background-color: #3498db;
+  color: #fff;
+}
+
+#intro .intro-wrapper .for-btn .btn2 {
+  padding: 8px 24px;
+  border: 2px solid #21bf73;
+  border-radius: 5px;
+  background-color: #21bf73;
+  color: white;
+}
+
+#intro .intro-wrapper .intro-footer {
+  margin-top: 20px;
+}
+
+#middle .middle-wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10% 10%;
+}
+
+#middle .charm h4 {
+  text-transform: uppercase;
+  color: #21bf73;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+#middle .charm h2 {
+  color: #383B61;
+  font-weight: 800;
+  margin-top: 20px;
+  line-height: 1.2;
+}
+
+#middle .charm p {
+  color: #818198;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 1;
+}
+
+#middle .row-secondary {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+
+#middle .container {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.secondary-img .one {
+  vertical-align: middle;
+  width: 30%;
+  padding-left: 15px;
+}
+
+.secondary-item {
+  background-color: rgba(255, 208, 217, 0.624);
+  cursor: pointer;
+  text-align: left;
+  padding: 50px 50px;
+  border-radius: 1px;
+}
+
+.secondary-text {
+  margin-top: 20px;
+  padding-left: 13px;
+}
+
+.secondary-text p {
+  color: #818198;
+}
+
+.secondary-img2 .two {
+  vertical-align: middle;
+  width: 30%;
+  padding-left: 15px;
+}
+
+.secondary-item2 {
+  background-color: #c3c3ef;
+  cursor: pointer;
+  text-align: left;
+  padding: 50px 50px;
+  border-radius: 1px;
+}
+
+.secondary-text2 {
+  margin-top: 20px;
+  padding-left: 13px;
+}
+
+.secondary-text2 p {
+  color: #818198;
+}
+
+.secondary-img3 .three {
+  vertical-align: middle;
+  width: 30%;
+  padding-left: 15px;
+}
+
+.secondary-item3 {
+  background-color: #f0f5f9;
+  cursor: pointer;
+  text-align: left;
+  padding: 50px 50px;
+  border-radius: 1px;
+}
+
+.secondary-text3 {
+  margin-top: 20px;
+  padding-left: 13px;
+}
+
+.secondary-text3 p {
+  color: #818198;
+}
+
+@media only screen and (max-width: 770px) {
+  .list {
+    display: none;
+  }
+  .logo a {
+    font-size: 30px;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+  .row-secondary {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}

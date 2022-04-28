@@ -1,0 +1,53 @@
+.list{
+    ul{
+        display: flex;
+        margin-bottom: 0px;
+        align-items: baseline;
+        li{
+            list-style: none;
+            padding-left: 40px;
+            
+            a{
+                text-decoration: none;
+                color: $text-color;
+                
+            }
+            .btn{
+                border: 2px solid $text-color;
+                border-radius: 4px;
+                padding: 6px 22px;
+                letter-spacing: 2px;
+                font-weight: 600;
+                text-transform: uppercase;
+                font-size: 12px;
+                &:hover{
+                    background-color: $secondary-clr;
+                    border-color: $secondary-clr;
+                    color: #fff;
+                }
+            }
+            
+        };
+    }
+}
+
+.logo{
+    a{
+        text-decoration: none;
+        color: $text-color;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+}
+
+nav{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.hamburger-menu{
+    font-size: 25px;
+    display: none;
+}

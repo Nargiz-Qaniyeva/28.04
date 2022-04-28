@@ -1,0 +1,17 @@
+@media only screen and (max-width: 770px) {
+    .list{
+        display:none;
+    }
+    .logo {
+        a{
+            font-size: 30px;
+        }
+    }
+    .hamburger-menu{
+        display: block;
+    }
+    .row-secondary{
+        flex-direction: row;
+    }
+ }
+ 
